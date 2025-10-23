@@ -16,9 +16,9 @@ header{
 ul{
     display: flex;
     gap: 3rem;
-    margin-right: 10rem;
+    margin-right: 20rem;
     list-style-type: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 h1{
@@ -30,52 +30,53 @@ h1{
 
 /* HERO SECTION */
 
-#hero{
-    flex: 1;
-    display: flex;
-    background-color:#1f2937;
-    padding: .5rem;
-    width: 100%;
-    justify-content: space-evenly;
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 4rem 8rem; 
+  gap: 4rem;
 }
-
-
-.text{
-    line-height: 1rem;
-    margin: auto 0;
-    padding: 1rem;
-    text-align: center;
+    
+.text {
+  flex: 0 1 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1.5rem;
 }
+    
+.text p{ 
+    color: #e5e7eb; 
+    font-size: 1rem; 
+    max-width: 40ch; 
+    line-height: 1.5; } 
 
-.text p{
-    padding: 4rem;
-    color: #e5e7eb;
-    font-size: 1rem;
-}
-
-#hero h2{
-    font-size: 3rem;
-    color: #F9FAF8;
-}
-
-button{
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 1rem 3rem;
-    background-color: #3882f6;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
+#hero h2{ 
+    font-size: 3rem; 
+    color: #F9FAF8; 
+    max-width: 15ch; } 
+    
+button{ 
+    border: 1px solid white; 
+    border-radius: 10px; 
+    padding: 1rem 3rem; 
+    background-color: #3882f6; 
+    color: #F9FAF8; 
+    font-weight: 900; } 
+    
 .img {
-  flex: 1;
+  flex: 0 1 45%; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .img img {
-  max-width: 50%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
-
