@@ -63,7 +63,7 @@ h1{
 button{ 
     border: 1px solid white; 
     border-radius: 10px; 
-    padding: 1rem 3rem; 
+    padding: .5rem 2rem; 
     background-color: #3882f6; 
     color: #F9FAF8; 
     font-weight: 900; } 
@@ -140,10 +140,56 @@ blockquote{
     max-width: 42ch;
 }
 
+.align{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
 #quote p{
     text-align: right;
     color: #1f2937;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
     font-family: sans-serif;
+}
+
+/* CALL 2 ACTION */
+
+#call2action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.call-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background-color: #3882f6;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.inner{
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+
+.inner h2{
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.inner p{
+    color: #BFD1ED;
+}
+
+.call-container button{
+    border: 2px solid #F9FAF8;
+    font-size: large;
+    font-weight: 600;
 }
