@@ -74,6 +74,10 @@ button:hover{
     color:#1f2937;
     cursor: pointer;
 }
+
+button:focus{
+    border: 5px solid yellow;
+}
     
 .img {
   flex: 0 1 45%; 
