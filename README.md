@@ -1,6 +1,7 @@
 # 🧭 EBey Crew — The Odin Project: Flexbox Landing Page
 
 # 📸 Preview
+Live demo link :  https://ebey04.github.io/Odin-Landing-Page/
 
 
 ## 📖 Overview
