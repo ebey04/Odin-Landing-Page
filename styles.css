@@ -24,11 +24,13 @@ ul{
 a{
     color: #f9faf8;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover{
     color: lime;
     text-decoration: underline lime;
+    cursor: pointer;
 }
 
 a:focus{
@@ -38,7 +40,7 @@ a:focus{
 
 h1{
     font-size: 1.5rem;
-    font: "Roboto";
+    font: "Roboto", sans-serif;
     color: #F9FAF8;
     margin-left: 10rem;
 }
@@ -82,6 +84,7 @@ button{
     background-color: #3882f6; 
     color: #F9FAF8; 
     font-weight: 900; 
+    cursor: pointer;
 } 
 
 button:hover{
@@ -91,7 +94,7 @@ button:hover{
 }
 
 button:focus{
-    border: 5px solid yellow;
+    border: 5px solid yellow;;
 }
     
 .img {
@@ -175,7 +178,7 @@ blockquote{
     gap: 2rem
 }
 
-#quote p{
+#quote figcaption{
     text-align: right;
     color: #1f2937;
     font-size: 1.5rem;
